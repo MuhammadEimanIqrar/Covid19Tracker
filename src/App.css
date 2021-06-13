@@ -1,0 +1,60 @@
+.App {
+    height: auto;
+    width: 100vw;
+    position: absolute;
+}
+
+section {
+    text-align: center;
+}
+
+@keyframes live {
+    0%{
+        transform: rotate(xx);
+        opacity: 1;
+        }
+    10%{
+        transform: rotate(xx);
+        opacity: 0.5;
+        }
+    20%{
+        transform: rotate(xx);
+        opacity: 0;
+        }
+    30%{
+        transform: rotate(xx);
+        opacity: 0.5;
+        }
+    40%{
+        transform: rotate(xx);
+        opacity: 1;
+        }
+    50%{
+        transform: rotate(xx);
+        opacity: 0.5;
+        }
+    60%{
+        transform: rotate(xx);
+        opacity: 0;
+        }
+    70%{
+        transform: rotate(xx);
+        opacity: 0.5;
+        }
+    80%{
+        transform: rotate(xx);
+        opacity: 1;
+        }
+    90%{
+        transform: rotate(xx);
+        opacity: 0.5;
+        }
+    100%{
+        transform: rotate(xx);
+        opacity: 0;
+        }
+}
+
+.live{
+    animation: live 6s infinite 0s linear;
+}
